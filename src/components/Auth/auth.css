@@ -41,7 +41,7 @@
 .icon_input {
   position: absolute;
   left: 20px;
-  top: 20px;
+  top: 13px;
 }
 .span_input {
   position: relative;
@@ -67,7 +67,7 @@
   text-align: center;
   font-size: 15px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
   letter-spacing: 0.105px;
   background: var(--colorPink);
@@ -79,16 +79,23 @@
   border: 1px solid var(--primary, #001b79);
 }
 .button_auth:nth-child(2) {
-  background: var(--primary);
+  background: #000;
   color: var(--white);
 }
-
+.button_auth:nth-child(3) {
+  background: var(--primary);
+  color: var(--white);
+  border: 1px solid var(--primary, #001b79);
+}
+.h_vh_RES {
+  height: 100vh;
+}
 @media screen and (min-width: 1800px) {
   .img_xxl {
     width: 350px;
   }
   .fs_auth {
-    font-size: 25px;
+    font-size: 20px;
   }
   .form-check-input {
     width: 1.5em !important;

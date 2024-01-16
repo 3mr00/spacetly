@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: Wahran;
-  src: url(./assets/fonts/alfont_com_Wahran-Light.otf);
+  font-family: GE_SS_Two;
+  src: url(./assets/fonts/GE_SS_Two_Medium.otf);
 }
 /* Firefox */
 * {
@@ -29,7 +29,7 @@
   border: 0;
 }
 body {
-  font-family: Wahran !important;
+  font-family: GE_SS_Two !important;
 }
 a {
   text-decoration: none !important;

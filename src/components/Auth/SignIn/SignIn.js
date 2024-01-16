@@ -1,10 +1,11 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import "./auth.css";
-import logo from "../../assets/images/logo.svg";
-import google from "../../assets/images/google.png";
-import apple from "../../assets/images/apple.png";
+import "../../Auth/auth.css";
+import logo from "../../../assets/images/logo.svg";
+import google from "../../../assets/images/google.png";
+import apple from "../../../assets/images/apple.png";
 import { Link } from "react-router-dom";
+import { SiFacebook } from "react-icons/si";
 
 const SignIn = () => {
   return (
@@ -18,20 +19,15 @@ const SignIn = () => {
           opacity="true"
           placeholderSrc={logo}
         />
-        <h1 className="color_pink fw-bolder mt-1">
-          {" "}
-          ابدأ بـ 10.000 كلمة مجانية
-        </h1>
-        <p className="fs-5 text-black-50 ">بطاقة الإئتمان غير مطالب بها!</p>
-        <form className="d-flex flex-column gap-1 align-content-end w-100 px-5  gap-2">
+        <form className="mt-5 d-flex flex-column gap-1 align-content-end w-100 px-5  gap-2">
           <label htmlFor="email" className=" fs_auth fw-bold  primary">
-            بريدك لألكتروني{" "}
+            بريدك الألكتروني{" "}
           </label>
           <input
             id="email"
             type="text"
             className="input_style_auth"
-            placeholder="الهاتف أو البريد الإلكتروني أو اسم المستخدم"
+            placeholder="البريد الإلكتروني"
           ></input>
           <label htmlFor="password" className="fs_auth fw-bold  primary">
             كلمة المرور
@@ -104,14 +100,18 @@ const SignIn = () => {
               placeholderSrc={apple}
             />
           </button>
+          <button className="button_auth fs_auth">
+            دخول بواسطة فيس بوك
+            <SiFacebook className=" white fs-5" />
+          </button>
         </div>
-        <a href="#/" className="mt-4 fs-5 text-black-50 ">
+        <Link to="/forgotpassword" className="mt-4 fs-6 text-black-50 ">
           فقدت كلمة المرور الخاصة بك؟
-        </a>
+        </Link>
 
         <span className="mt-4 d-flex gap-2">
-          <p className=" fs-5 text-black-50">ليس لديك حساب؟</p>
-          <Link to="/signin" className=" fw-bold  primary ">
+          <p className=" fs-6 text-black-50">ليس لديك حساب؟</p>
+          <Link to="/signup" className="fs-6 fw-bolder  primary ">
             إنشاء حساب
           </Link>
         </span>

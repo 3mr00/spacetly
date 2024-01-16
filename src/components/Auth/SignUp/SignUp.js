@@ -1,9 +1,10 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import logo from "../../assets/images/logo.svg";
-import google from "../../assets/images/google.png";
-import apple from "../../assets/images/apple.png";
+import logo from "../../../assets/images/logo.svg";
+import google from "../../../assets/images/google.png";
+import apple from "../../../assets/images/apple.png";
 import { Link } from "react-router-dom";
+import { SiFacebook } from "react-icons/si";
 
 const SignUp = () => {
   return (
@@ -106,11 +107,7 @@ const SignUp = () => {
             opacity="true"
             placeholderSrc={logo}
           />
-          <h1 className="color_pink fw-bolder mt-1">
-            {" "}
-            ابدأ بـ 10.000 كلمة مجانية
-          </h1>
-          <p className="fs-5 text-black-50 ">بطاقة الإئتمان غير مطالب بها!</p>
+          <h1 className="color_pink fw-bolder py-2"> ابدأ الآن مجاناً </h1>
           <form className="d-flex flex-column gap-1 align-content-end w-100 px-5  gap-2">
             <label htmlFor="name" className=" fw-bold  primary fs_auth">
               أدخل أسمك
@@ -122,13 +119,13 @@ const SignUp = () => {
               placeholder="اسم المستخدم"
             ></input>
             <label htmlFor="email" className=" fw-bold  primary fs_auth">
-              بريدك لألكتروني{" "}
+              بريدك الألكتروني{" "}
             </label>
             <input
               id="email"
               type="text"
               className="input_style_auth"
-              placeholder="الهاتف أو البريد الإلكتروني أو اسم المستخدم"
+              placeholder="البريد الإلكتروني"
             ></input>
             <label htmlFor="password" className=" fw-bold  primary fs_auth">
               كلمة المرور
@@ -175,7 +172,10 @@ const SignUp = () => {
                 أوافق على سياسة الخصوصية
               </u>
             </div>
-            <button className="button_auth fs_auth"> إنشاء حساب </button>
+            <Link to="/verifyaccount" className="button_auth fs_auth">
+              {" "}
+              إنشاء حساب{" "}
+            </Link>
           </form>
           <p className="fs-5 fw-normal my-2 fs_auth">أو إنشاء حساب بستخدام</p>
 
@@ -202,11 +202,15 @@ const SignUp = () => {
                 placeholderSrc={apple}
               />
             </button>
+            <button className="button_auth fs_auth">
+              إنشاء بواسطة فيس بوك
+              <SiFacebook className=" -white fs-5" />
+            </button>
           </div>
 
           <span className="mt-4 d-flex gap-2">
-            <p className=" fs-5 text-black-50">هل لديك حساب؟</p>
-            <Link to="/signin" className=" fw-bold  primary ">
+            <p className=" fs-6 text-black-50">هل لديك حساب؟</p>
+            <Link to="/signin" className="fs-6 fw-bold  primary ">
               تسجيل الدخول
             </Link>
           </span>
