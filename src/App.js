@@ -5,6 +5,7 @@ import SignUp from "./components/Auth/SignUp/SignUp";
 import ForgotPassword from "./components/Auth/ForgotPassword/ForgotPassword";
 import VerifyAccount from "./components/Auth/VerifyAccount/VerifyAccount";
 import NewPassword from "./components/Auth/NewPassword/NewPassword";
+import Language from "./components/Dashboard/Language/Language";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/forgotpassword" element={<ForgotPassword />} />
         <Route path="/verifyaccount" element={<VerifyAccount />} />
         <Route path="/newpassword" element={<NewPassword />} />
+        <Route path="/language" element={<Language />} />
       </Routes>
     </div>
   );

@@ -9,12 +9,6 @@
   height: 100vh;
 }
 
-.color_pink {
-  color: var(--colorPink);
-}
-.primary {
-  color: var(--primary);
-}
 .input_style_auth {
   display: flex;
   width: 100%;

@@ -12,7 +12,7 @@ const SignUp = () => {
       <div
         class="modal fade"
         id="exampleModal"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
@@ -117,7 +117,7 @@ const SignUp = () => {
               type="text"
               className="input_style_auth"
               placeholder="اسم المستخدم"
-            ></input>
+            />
             <label htmlFor="email" className=" fw-bold  primary fs_auth">
               بريدك الألكتروني{" "}
             </label>
