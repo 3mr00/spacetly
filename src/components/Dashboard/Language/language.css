@@ -2,8 +2,50 @@
   font-size: 10px;
 }
 
+.button_lang {
+  border-radius: 35px;
+  display: flex;
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+  background: var(--colorPink);
+  color: var(--white, #fff);
+}
+
+.show_mobile_lang {
+  display: flex;
+}
+.hide_disk_lang {
+  display: none !important;
+}
+.ql-editor {
+  height: 30vh !important;
+}
+.ql-toolbar {
+  display: flex;
+  justify-content: center;
+}
 @media screen and (min-width: 576px) {
   .header_name {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ql-editor {
+    height: 72vh !important;
+  }
+  .show_mobile_lang {
+    display: none;
+  }
+  .hide_disk_lang {
+    display: flex;
   }
 }

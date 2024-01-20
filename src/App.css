@@ -51,3 +51,15 @@ a {
 .primary {
   color: var(--primary);
 }
+.yellow {
+  color: #ffb32b;
+}
+.green {
+  color: #00e57b;
+}
+.dark_color {
+  color: #000;
+}
+.vh_85vh {
+  height: 85vh;
+}
