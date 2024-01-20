@@ -32,6 +32,12 @@
   display: flex;
   justify-content: center;
 }
+.ql-toolbar.ql-snow .ql-formats {
+  margin-right: 0px !important;
+  display: flex;
+  width: 22%;
+}
+
 @media screen and (min-width: 576px) {
   .header_name {
     font-size: 20px;
@@ -47,5 +53,10 @@
   }
   .hide_disk_lang {
     display: flex;
+  }
+  .ql-toolbar.ql-snow .ql-formats {
+    margin-right: 15px !important;
+    display: flex;
+    width: auto !important;
   }
 }

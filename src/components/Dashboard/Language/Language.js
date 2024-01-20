@@ -323,7 +323,7 @@ const Language = () => {
           {/* language */}
           <section className="w-100 h-100 d-flex flex-lg-row flex-column  mt-3">
             <div className="col-lg-9 col-12 mb-lg-0 mb-2">
-              <p className=" primary d-flex gap-1 align-items-center pe-3">
+              <p className=" primary d-flex gap-1 align-items-center  pe-3">
                 <CgFileDocument />
                 مستند جديد
               </p>
@@ -344,19 +344,19 @@ const Language = () => {
                 </button>
               </div>
               <div className="w-100 d-flex flex-column align-items-center">
-                <p className=" primary d-flex gap-1 align-items-center pe-3">
+                <p className=" primary d-flex gap-1 align-items-center">
                   <TbDeviceIpadHorizontalSearch />
                   كاشف الاقتباسات{" "}
                 </p>
-                <p className="color_pink d-flex gap-1 align-items-center pe-3">
+                <p className="color_pink d-flex gap-1 align-items-center">
                   <IoIosInformationCircleOutline />
                   لاتوجد كلمات لتدقيقها{" "}
                 </p>
                 <span className="d-flex justify-content-between">
-                  <p className="color_pink d-flex gap-1 align-items-center pe-3">
+                  <p className="color_pink d-flex gap-1 align-items-center">
                     عدد الكلمات
                   </p>
-                  <p className="color_pink d-flex gap-1 align-items-center pe-3">
+                  <p className="color_pink d-flex gap-1 align-items-center">
                     <MdElectricBolt />
                     999
                   </p>
@@ -478,19 +478,19 @@ const Language = () => {
                 </span>
               </div>
               <div className="w-100 d-flex flex-column align-items-center">
-                <p className=" primary d-flex gap-1 align-items-center pe-3">
+                <p className=" primary d-flex gap-1 align-items-center">
                   <TbDeviceIpadHorizontalSearch />
                   كاشف الاقتباسات{" "}
                 </p>
-                <p className="color_pink d-flex gap-1 align-items-center pe-3">
+                <p className="color_pink d-flex gap-1 align-items-center">
                   <IoIosInformationCircleOutline />
                   لاتوجد كلمات لتدقيقها{" "}
                 </p>
                 <span className="d-flex justify-content-between">
-                  <p className="color_pink d-flex gap-1 align-items-center pe-3">
+                  <p className="color_pink d-flex gap-1 align-items-center">
                     عدد الكلمات
                   </p>
-                  <p className="color_pink d-flex gap-1 align-items-center pe-3">
+                  <p className="color_pink d-flex gap-1 align-items-center">
                     <MdElectricBolt />
                     999
                   </p>
