@@ -20,7 +20,7 @@ const Sidebar = ({ expend, setexpend }) => {
       <div
         className={`${
           expend ? "d_flex" : "d_none"
-        } Sidebar   flex-column gap-2 col-xl-3 col-md-4 col-sm-6 col-9 sec_toggle
+        } Sidebar   flex-column gap-2 col-xxl-2 col-xl-3 col-md-4 col-sm-6 col-9 sec_toggle
                   flex-column position-fixed h-100  bg-black `}
       >
         <IoClose

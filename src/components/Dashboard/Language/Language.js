@@ -101,8 +101,8 @@ const Language = () => {
               ></button>
             </div>
             <div class="modal-body ar">
-              <div className=" col-12 d-flex flex-column align-items-center justify-content-between  ">
-                <div className=" w-100 mb-2 d-flex flex-column align-items-center ">
+              <div className="w-100 d-flex flex-column align-items-center justify-content-between  ">
+                <div className="col-7  mb-2 d-flex flex-column align-items-center ">
                   <button className="button_lang fs_auth mb-3">
                     <FaCircleCheck />
                     تصحيح
@@ -251,7 +251,7 @@ const Language = () => {
       </div>
       <section className=" d-flex ar h-100">
         <Sidebar expend={expend} setexpend={setexpend} />
-        <div className="ar col-xl-9 col-12 vh_85vh">
+        <div className="ar col-xxl-10 col-xl-9 col-12 vh_85vh">
           <div className="shadow-sm d-flex justify-content-between  gap-2 p-3">
             <div className=" d-flex align-items-center  gap-2 w-75">
               <HiMenuAlt3
@@ -322,7 +322,7 @@ const Language = () => {
 
           {/* language */}
           <section className="w-100 h-100 d-flex flex-lg-row flex-column  mt-3">
-            <div className="col-lg-9 col-12 mb-lg-0 mb-2">
+            <div className="col-xxl-10 col-lg-9 col-12 mb-lg-0 mb-5">
               <p className=" primary d-flex gap-1 align-items-center  pe-3">
                 <CgFileDocument />
                 مستند جديد
@@ -363,7 +363,7 @@ const Language = () => {
                 </span>
               </div>
             </div>
-            <div className=" col-lg-3 d-lg-flex d-none flex-column align-items-center justify-content-between  ">
+            <div className="col-xxl-2  col-lg-3 d-lg-flex d-none flex-column align-items-center justify-content-between  ">
               <div className="w-100 mb-2 d-flex flex-column align-items-center ">
                 <button className="button_lang fs_auth mb-3">
                   <IoIosInformationCircleOutline />
