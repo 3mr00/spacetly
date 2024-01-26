@@ -84,23 +84,23 @@ const Language = () => {
         </div>
       </div>
       <div
-        class="modal fade"
+        className="modal fade"
         id="exampleModal2"
         tabIndex="-1"
         aria-labelledby="exampleModalLabel2"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-dialog-scrollable">
-          <div class="modal-content">
-            <div class="modal-header ar">
+        <div className="modal-dialog modal-dialog-scrollable">
+          <div className="modal-content">
+            <div className="modal-header ar">
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body ar">
+            <div className="modal-body ar">
               <div className="w-100 d-flex flex-column align-items-center justify-content-between  ">
                 <div className="col-7  mb-2 d-flex flex-column align-items-center ">
                   <button className="button_lang fs_auth mb-3">
@@ -237,10 +237,10 @@ const Language = () => {
                 </div>
               </div>
             </div>
-            <div class="modal-footer">
+            <div className="modal-footer">
               <button
                 type="button"
-                class="btn btn-secondary"
+                className="btn btn-secondary"
                 data-bs-dismiss="modal"
               >
                 إغلاق

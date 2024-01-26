@@ -2,6 +2,9 @@
   --colorPink: #ed5ab3;
   --primary: #001b79;
   --white: #fff;
+  --dark: #000;
+  --green: #00e57b;
+  --yellow: #ffb32b;
 }
 
 @font-face {
@@ -35,6 +38,9 @@ body {
 a {
   text-decoration: none !important;
   cursor: pointer;
+}
+.font_ar {
+  font-family: GE_SS_Two !important;
 }
 .font_en {
   font-family: "Poppins", sans-serif !important;

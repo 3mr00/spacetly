@@ -10,23 +10,23 @@ const SignUp = () => {
   return (
     <>
       <div
-        class="modal fade"
+        className="modal fade"
         id="exampleModal"
         tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-dialog-scrollable">
-          <div class="modal-content">
-            <div class="modal-header ar">
+        <div className="modal-dialog modal-dialog-scrollable">
+          <div className="modal-content">
+            <div className="modal-header ar">
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body ar">
+            <div className="modal-body ar">
               التزامنا بمراعاة خصوصيتك تلتزم إي أف بحماية خصوصية عملائنا. وتنطبق
               سياسة حماية الخصوصية المعتمدة من قبل إي أف ("سياسة حماية
               الخصوصية") على كل المعلومات الشخصية التي يتم جمعها من قبلنا أو
@@ -85,10 +85,10 @@ const SignUp = () => {
               المعلومات طوعًا. من خلال الموقع الجغرافي: قد نجمع معلومات حول
               الموقع الجغرافي لجهازكم.
             </div>
-            <div class="modal-footer">
+            <div className="modal-footer">
               <button
                 type="button"
-                class="btn btn-secondary"
+                className="btn btn-secondary"
                 data-bs-dismiss="modal"
               >
                 إغلاق

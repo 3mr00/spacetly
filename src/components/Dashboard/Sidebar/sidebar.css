@@ -67,8 +67,18 @@
   .button_toggle {
     display: none;
   }
+  .a_sidebar {
+    font-size: 13px;
+  }
 }
-
+@media screen and (min-width: 1400px) {
+  .a_sidebar {
+    font-size: 10px;
+  }
+  .button_lang {
+    font-size: 10px;
+  }
+}
 @media screen and (max-width: 450px) {
   .Sidebar {
     width: 50% !important;
